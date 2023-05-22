@@ -1,0 +1,90 @@
+body{
+    background-color: #fffbfb;
+
+}
+*{
+    margin: 0;
+}
+.cover{
+    background-color: rgba(50, 10, 193, 0.857);
+    width:92vw;
+    margin:20px auto;
+    height:80px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+select{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 120%;
+    color:#f1f1f1;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px solid black;
+}
+b{
+    font-size: 129%;
+}
+.cover svg{
+    width:40px;
+    height: 20px;
+    fill:#f1f1f1;
+    font-weight: 300;
+
+}
+.inputtext{
+    width:100vw;
+    height:70px;
+    position: fixed;
+    z-index: 20;
+    bottom:2px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    border-radius: 2px solid grey;
+}
+.inputman{
+    width:90vw;
+    height:70px;
+    background-color: white;
+    box-shadow: 1px 1px 1px grey;
+    display: flex;
+    border-radius: 20px;
+    border-radius: 2px solid grey;
+
+}
+.alert{
+    width:95vw;
+    height:auto;
+    min-height: 30px;
+    font-size:80%;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px grey;
+    margin: 5px auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3px 3px;
+}
+#input-text{
+    outline: none;
+    border: none;
+    width: 75%;
+}
+.button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width:20%;
+}
+button svg{
+    fill: rgba(50, 10, 193, 0.857);
+    width:30px;
+}
