@@ -11,8 +11,6 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use(express.urlencoded({ extended: true }));
 const filePath = path.join(__dirname, 'public', 'index.html');
 const filelath = path.join(__dirname, 'public', 'translate.html');
-
-
  
 app.get('/',(req,res)=>{
   res.sendFile(filePath)
